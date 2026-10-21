@@ -37,6 +37,14 @@ A modern, full-featured React application for managing student records, built wi
 
 Follow these steps to run the project locally on your machine:
 
-![Screenshot 1](./Screenshot%20(171).png)
-![Screenshot 2](./Screenshot%20(172).png)
-![Screenshot 3](./Screenshot%20(173).png)
+<p align="center">
+  <img src="./Screenshot%20(171).png" alt="Screenshot 1" width="100%" style="border-radius: 8px; border: 1px solid #232733;" />
+</p>
+
+<p align="center">
+  <img src="./Screenshot%20(172).png" alt="Screenshot 2" width="100%" style="border-radius: 8px; border: 1px solid #232733;" />
+</p>
+
+<p align="center">
+  <img src="./Screenshot%20(173).png" alt="Screenshot 3" width="100%" style="border-radius: 8px; border: 1px solid #232733;" />
+</p>
