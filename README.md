@@ -42,12 +42,8 @@ Follow these steps to run the project locally on your machine:
 git clone <your-repository-url>
 cd student-management"# reactFainal" 
 ## Screenshots
+## Screenshots
 
-### Screenshot 1
 ![Screenshot 1](./Screenshot%20(171).png)
-
-### Screenshot 2
 ![Screenshot 2](./Screenshot%20(172).png)
-
-### Screenshot 3
 ![Screenshot 3](./Screenshot%20(173).png)
