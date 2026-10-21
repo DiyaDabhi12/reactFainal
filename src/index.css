@@ -1,0 +1,227 @@
+
+:root {
+  font-family: Inter, Arial, sans-serif;
+  color: #25233a;
+  background: #f7f7fc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f7f7fc;
+}
+
+.app-navbar {
+  background: linear-gradient(110deg, #6428ed, #8537d9);
+  padding: 15px 0;
+  box-shadow: 0 4px 16px #4c1d951a;
+}
+
+.app-navbar .navbar-brand {
+  color: white;
+  font-size: 23px;
+  letter-spacing: 0.3px;
+}
+
+.app-navbar .nav-link {
+  color: #eee5ff;
+  padding: 9px 14px;
+  border-radius: 8px;
+}
+
+.app-navbar .nav-link:hover,
+.app-navbar .nav-link.active {
+  color: white;
+  background: #ffffff24;
+}
+
+.student-dashboard,
+.form-page {
+  padding-top: 18px;
+  padding-bottom: 40px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  border-radius: 18px;
+  color: white;
+  background: linear-gradient(115deg, #6025ec, #8738d9);
+  box-shadow: 0 10px 30px #6428ed20;
+}
+
+.dashboard-label {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.6px;
+  color: #8b5cf6;
+}
+
+.dashboard-header .dashboard-label {
+  color: #e2d5ff;
+}
+
+.dashboard-header h2,
+.form-heading h2 {
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 750;
+  margin-bottom: 8px;
+}
+
+.dashboard-header p,
+.form-heading p {
+  margin: 0;
+  opacity: 0.85;
+}
+
+.add-student-btn {
+  flex-shrink: 0;
+  color: #6829dc;
+  font-weight: 700;
+  padding: 11px 18px;
+  border-radius: 10px;
+}
+
+.stat-card,
+.student-panel {
+  background: white;
+  border: 1px solid #eeedf5;
+  border-radius: 15px;
+  box-shadow: 0 5px 22px #24204408;
+}
+
+.stat-card {
+  padding: 22px;
+}
+
+.stat-card p {
+  color: #77758b;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.stat-card h3 {
+  margin: 0;
+  font-size: 29px;
+  font-weight: 750;
+  color: #692ce8;
+}
+
+.student-panel {
+  padding: 25px;
+}
+
+.panel-heading {
+  margin-bottom: 22px;
+}
+
+.panel-heading h4 {
+  font-size: 20px;
+  font-weight: 750;
+  margin-bottom: 6px;
+}
+
+.panel-heading p {
+  color: #77758b;
+  font-size: 14px;
+  margin: 0;
+}
+
+.form-control,
+.form-select {
+  min-height: 43px;
+  border-color: #e5e3ef;
+  border-radius: 9px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #8954f5;
+  box-shadow: 0 0 0 3px #8954f51c;
+}
+
+.student-table thead th {
+  background: #f8f6ff;
+  color: #716c85;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  padding: 15px 12px;
+  white-space: nowrap;
+}
+
+.student-table tbody td {
+  padding: 16px 12px;
+  border-color: #f0eef6;
+  font-size: 14px;
+}
+
+.student-name {
+  font-weight: 700;
+  color: #30284a;
+}
+
+.form-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 24px;
+}
+
+.form-heading h2 {
+  color: #30284a;
+}
+
+.form-heading p {
+  color: #77758b;
+}
+
+.form-panel {
+  padding: 30px;
+}
+
+.form-label {
+  font-weight: 650;
+  color: #49445d;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background: #702de5;
+  border-color: #702de5;
+}
+
+.btn-primary:hover {
+  background: #5920c4;
+  border-color: #5920c4;
+}
+
+@media (max-width: 576px) {
+  .dashboard-header,
+  .form-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .dashboard-header {
+    padding: 22px;
+  }
+
+  .student-panel,
+  .form-panel {
+    padding: 16px;
+  }
+}

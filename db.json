@@ -1,0 +1,104 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "rollNo": 101,
+      "name": "Aarav Patel",
+      "email": "aarav.patel@gmail.com",
+      "phone": "9876543210",
+      "course": "Computer Engineering",
+      "class": "10-A",
+      "grade": "A"
+    },
+    {
+      "id": "2",
+      "rollNo": 102,
+      "name": "Diya Shah",
+      "email": "diya.shah@gmail.com",
+      "phone": "9825012345",
+      "course": "Information Technology",
+      "class": "10-A",
+      "grade": "A+"
+    },
+    {
+      "id": "3",
+      "rollNo": 103,
+      "name": "Rohan Mehta",
+      "email": "rohan.mehta@gmail.com",
+      "phone": "9712345678",
+      "course": "Data Science",
+      "class": "10-B",
+      "grade": "B+"
+    },
+    {
+      "id": "4",
+      "rollNo": 104,
+      "name": "Ananya Joshi",
+      "email": "ananya.joshi@gmail.com",
+      "phone": "9909988776",
+      "course": "Cyber Security",
+      "class": "10-A",
+      "grade": "A"
+    },
+    {
+      "id": "5",
+      "rollNo": 105,
+      "name": "Karan Sharma",
+      "email": "karan.sharma@gmail.com",
+      "phone": "9898011223",
+      "course": "Computer Engineering",
+      "class": "10-B",
+      "grade": "B"
+    },
+    {
+      "id": "6",
+      "rollNo": 106,
+      "name": "Priya Parmar",
+      "email": "priya.parmar@gmail.com",
+      "phone": "9723456789",
+      "course": "Information Technology",
+      "class": "10-A",
+      "grade": "A"
+    },
+    {
+      "id": "7",
+      "rollNo": 107,
+      "name": "Harsh Trivedi",
+      "email": "harsh.trivedi@gmail.com",
+      "phone": "9638012345",
+      "course": "AI & ML",
+      "class": "10-C",
+      "grade": "A+"
+    },
+    {
+      "id": "8",
+      "rollNo": 108,
+      "name": "Siddharth Dave",
+      "email": "siddharth.dave@gmail.com",
+      "phone": "9510123456",
+      "course": "Data Science",
+      "class": "10-B",
+      "grade": "B+"
+    },
+    {
+      "id": "9",
+      "rollNo": 109,
+      "name": "Kavya Solanki",
+      "email": "kavya.solanki@gmail.com",
+      "phone": "9426011223",
+      "course": "Cyber Security",
+      "class": "10-A",
+      "grade": "A"
+    },
+    {
+      "id": "10",
+      "rollNo": 110,
+      "name": "Yash Vaghela",
+      "email": "yash.vaghela@gmail.com",
+      "phone": "9375012345",
+      "course": "Computer Engineering",
+      "class": "10-C",
+      "grade": "C+"
+    }
+  ]
+}
